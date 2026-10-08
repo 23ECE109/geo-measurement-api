@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Sample Geospatial Data</name>
+
+    <Placemark>
+      <name>Eiffel Tower</name>
+      <Point>
+        <coordinates>2.2945,48.8584,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <Placemark>
+      <name>Seine River Segment</name>
+      <LineString>
+        <coordinates>
+          2.2945,48.8584,0
+          2.3100,48.8650,0
+          2.3300,48.8700,0
+          2.3500,48.8650,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+    <Placemark>
+      <name>Champ de Mars Park</name>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+              2.2922,48.8562,0
+              2.2978,48.8562,0
+              2.2978,48.8606,0
+              2.2922,48.8606,0
+              2.2922,48.8562,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+
+  </Document>
+</kml>
